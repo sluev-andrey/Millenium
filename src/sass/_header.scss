@@ -1,0 +1,31 @@
+.header{
+  &__top{
+    display: flex;
+    justify-content: space-between;
+
+  }
+  &__logo{
+    margin-top: 35px;
+  }
+  &__menu{
+    margin-top: 55px;
+    &-list{
+      width: 465px;
+      display: flex;
+      justify-content: space-between;
+      
+    }
+    &-items{
+      font-family: 'Montserrat';
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+      color: #2A2367;
+    }
+  }
+  &__contacts{
+    margin-top: 39px;
+    display: flex;
+  }
+}
+
