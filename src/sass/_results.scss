@@ -1,0 +1,47 @@
+.results{
+  &__title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2A2367;
+    @include span;
+  }
+  &__benefits{
+    margin-top: 59px;
+    &-wrapper{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    &-title{
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 22px;
+      color: #6B5AF9;
+    }
+    &-list{
+      margin-top: 17px;
+      list-style-type: disc;
+    }
+    &-item{
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      color: #2A2367;
+    }
+  }
+  &__button{
+    margin: 99px auto 150px;
+    display: block;
+  }
+}
+
+.reverse{
+  flex-direction: row-reverse;
+}

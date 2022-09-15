@@ -1,4 +1,6 @@
 .header{
+  height: 100vh;
+  position: relative;
   &__top{
     display: flex;
     justify-content: space-between;
@@ -9,8 +11,9 @@
   }
   &__menu{
     margin-top: 55px;
+    padding-left: 34px;
     &-list{
-      width: 465px;
+      width: 382px;
       display: flex;
       justify-content: space-between;
       
@@ -21,11 +24,118 @@
       font-size: 14px;
       line-height: 17px;
       color: #2A2367;
+      &:hover{
+        color: #6B5AF9;
+        transition: all .5s;
+      }
     }
   }
   &__contacts{
     margin-top: 39px;
     display: flex;
+    padding-left: 67px;
+  }
+  &__social{
+    padding-right: 15px;
+    &-img{
+      padding-right: 4px;
+    }
+  }
+  &__phone{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2A2367;
+    &-descr{
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 15px;
+      color: #2A2367;
+      text-align: end;
+    }
+  }
+  &__button{
+    margin-top: 32px;
+    margin-left: 20px;
+    width: 177px;
+    height: 60px;
+    background-color: #6B5AF9;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    border: none;
+  }
+  &__promo{
+    @include span;
+    &-content{
+      width: 696px;
+    }
+    &-title{
+      margin-top: 90px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 44px;
+      color: #2A2367;
+    }
+    &-text{
+      margin-top: 33px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: #2A2367;
+      span{
+        font-weight: 700;
+      }
+    }
+    &-button{
+      margin-top: 116px;
+    }
+    &-descr{
+      width: 472px;
+      margin-top: 20px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 137.4%;
+      color: #2A2367;
+    }
+    &-images{
+      position: absolute;
+      top: 90px;
+      right: 75px;
+      z-index: -1;
+      &::before{
+        content: '';
+        position: absolute;
+        background-image:url(../images/ellipse_bg.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 685px;
+        height: 784px;
+        transform: rotate(270deg);
+        z-index: -2;
+        top: 0px;
+        right: 85px;
+      }
+    }
   }
 }
 
+.down-arrow{
+  display: block;
+  text-align: center;
+  margin-top: 90px;
+}

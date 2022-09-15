@@ -26,4 +26,26 @@ ul{
   list-style: none;
 }
 
+.button{
+  width: 275px;
+  height: 60px;
+  background-color: #6B5AF9;
+  border-radius: 5px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
+  &:hover{
+    background-color: #2A2367;
+    transition: all .5s;
+  }
+}
+
 @import 'header';
+@import 'creating';
+@import 'results';
+@import 'certificate';
