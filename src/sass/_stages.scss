@@ -1,0 +1,73 @@
+.stages{
+  &__wrapper{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2A2367;
+  }
+  &__list{
+    margin-top: 57px;
+    &-inner{
+      list-style-type: decimal-leading-zero;
+    }
+    &-item{
+      margin-left: 78px;
+      padding-bottom: 49px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px;
+      color: #2A2367;
+    }
+  }
+  &__box{
+    width: 668px;
+    padding: 34px 81px 95px 43px;
+    margin-bottom: 55px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 60px rgba(42, 35, 103, 0.15);
+    border-radius: 10px;
+    &-content{
+      display: flex;
+      align-items: center;
+    }
+    &-number{
+      margin-right: 50px;
+      width: 53px; 
+      height: 53px;
+      background: #43CD93;
+      border-radius: 50%;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 53px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+    &-title{
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 29px;
+      color: #2A2367;
+    }
+    &-descr{
+      margin-top: 40px;
+      &>p{
+        margin-bottom: 34px;
+      }
+    }
+    &-img{
+      width: 100%;
+    }
+  }
+}

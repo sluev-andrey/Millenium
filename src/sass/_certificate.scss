@@ -4,10 +4,38 @@
   background-color: #F0D577;
   margin-bottom: 150px;
   &__wrapper{
+    padding: 27px 96px 19px 14px;
+    width: 1120px;
     margin-top: 26px;
     position: absolute;
     height: 438px;
     border: 3px solid #FFFFFF;
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__box{
+    &-content{
+      width: 212px;
+      text-align: center;
+    }
+    &-title{
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 15px;
+      margin-bottom: 6px;
+      color: #9F9F9F;
+    }
+    &-decsr{
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 15px;
+      color: #2A2367;
+      margin-bottom: 14px;
+    }
   }
 }
